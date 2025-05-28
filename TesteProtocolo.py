@@ -1,4 +1,5 @@
-import socket
+## ESTE É UM TESTE DE PROTOCOLO NA REDE LOCAL USANDO O MODULO PSUTIL ##
+
 import psutil
 
 todasConexões = psutil.net_connections(kind='inet')
